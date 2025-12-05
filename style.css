@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-color: rgb(0, 255, 55);
+    display: flex;
+    height: 220px;
+    justify-content:space-around;
+    align-items:center;
+   
+}
+.box{
+    color: white;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(182, 43, 43);
+}
+.box2{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(92, 67, 124);
+}
+.box3{
+    align-self: flex-start;
+    width: 140px;
+    height: 140px;
+    background-color: rgb(225, 173, 231);
+}
+.box4{
+    width: 160px;
+    height: 160px;
+    background-color: rgb(106, 36, 218);
+}
